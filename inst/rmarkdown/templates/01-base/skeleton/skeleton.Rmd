@@ -1,0 +1,38 @@
+---
+title: ""
+author: "Kyle Kim"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+ html_document:
+   toc: true
+   toc_float: true
+   code_folding: hide
+ md_document:
+   variant: markdown_github
+---
+
+## Overview
+What is this script about? What is it doing?
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Setup
+```{r setup, echo=TRUE, message=FALSE, warning=FALSE}
+# Run install.packages('packagename') if required
+library(tidyverse)
+library(here)
+```
+
+## Data import
+```{r cleaning, echo=TRUE, message=FALSE, warning=FALSE}
+```
+
+## Data cleaning
+```{r cleaning, echo=TRUE, message=FALSE, warning=FALSE}
+```
+
+## Visualize
+```{r cleaning, echo=TRUE, message=FALSE, warning=FALSE}
+```
